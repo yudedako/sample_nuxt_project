@@ -2,6 +2,10 @@
 
 > Nuxt.js project
 
+## See
+Nuxt tech book
+https://potato4d.booth.pm/items/824745
+
 ## Build Setup
 
 ``` bash
