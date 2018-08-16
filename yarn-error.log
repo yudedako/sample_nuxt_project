@@ -1,0 +1,50 @@
+Arguments: 
+  /home/komoto/.nodebrew/node/v10.8.0/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /home/komoto/bin:/home/komoto/.local/bin:/home/komoto/.rbenv/shims:/home/komoto/.rbenv/bin:/home/komoto/.nodebrew/current/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Intel/iCLS Client:/mnt/c/Program Files/Intel/iCLS Client:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Ruby25-x64/bin:/mnt/c/Users/pluto/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/Docker Toolbox/Docker Toolbox:/mnt/c/Users/pluto/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  10.8.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/komoto/.cache/yarn/v2/npm-loader-utils-0.2.17-f86e6374d43205a6e6c60e9196f17c0299bfb348/index.js' -> '/mnt/d/Users/pluto/workspace/wsl_synced/nuxt-project/node_modules/html-webpack-plugin/node_modules/loader-utils/index.js'
+
+npm manifest: 
+  {
+    "name": "nuxt-project",
+    "version": "1.0.0",
+    "description": "Nuxt.js project",
+    "author": "yudedako <pluto.club@gmail.com>",
+    "private": true,
+    "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate",
+      "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "nuxt": "^1.0.0"
+    },
+    "devDependencies": {
+      "babel-eslint": "^8.2.1",
+      "eslint": "^4.15.0",
+      "eslint-friendly-formatter": "^3.0.0",
+      "eslint-loader": "^1.7.1",
+      "eslint-plugin-vue": "^4.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
