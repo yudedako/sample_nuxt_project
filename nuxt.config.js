@@ -27,7 +27,8 @@ module.exports = {
   ** Customize the plugins
   */
   plugins: [
-    '~/plugins/axios'
+    '~/plugins/axios',
+    '~/plugins/logger'
   ],
   /*
   ** Customize the router
