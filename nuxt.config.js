@@ -34,7 +34,7 @@ module.exports = {
   ** Customize the router
   */
   router: {
-    middleware: ['redirector']
+    middleware: ['redirector', 'auth']
   },
   /*
   ** Build configuration
